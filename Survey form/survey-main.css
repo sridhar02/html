@@ -15,14 +15,17 @@ html{
 	padding-right: 20px;
 	padding-bottom: 20px;
 	margin: 10px;
+
 }
 .future{
-	display: flex;		
+	display: flex;
+
 } 
 
 .like {
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
+
 }
 
 .styled {
@@ -54,5 +57,18 @@ label {
 input {
     margin: .4rem;
 }
+.freecodecamp{
+	display: flex;
+	justify-content: space-between;
+}
+.describes{
+	display: flex;
+	justify-content: space-between;
 
+}
 
+.improve{
+	display: flex;
+	/*justify-content: center;*/
+
+}
