@@ -1,0 +1,104 @@
+html{
+	/*box-sizing: border-box;*/
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	background: white;
+	align-content: center;
+}
+
+#head{
+	background:lightblue; 
+}
+
+.arrange-buttons li {
+	padding: 20px;
+	background-image: white;
+}
+
+.arrange-buttons  {
+	display: flex;
+	list-style: none;
+}
+
+body{
+	/*background: rgb(0,255,255);*/
+	/*background-image:linear-gradient(260deg,#2376ae 0%,#c16ecf 50%);*/
+	/*background-color: lightblue;*/
+	text-align: justify;
+	border: solid;
+	margin-top: 10px;
+  	margin-bottom: 10px;
+  	margin-right: 15px;
+  	margin-left: 8px;
+}
+
+h1{
+	text-align: center;
+}
+
+h2{
+	text-align: center;
+}
+
+img{
+	border-radius: 50px;
+}
+
+#div-image{
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 20%;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	/*border: 1px solid #ccc;*/
+	background: white;  
+}
+
+button {
+  display: flex;
+  padding: 5px 10px;
+  text-align: center;
+  font-size: 16px;
+  vertical-align: middle;
+}
+
+.main-text{
+	/*background: lightblue;*/
+	font-family: 'Merriweather', serif;
+	/*background: brown;*/
+}
+
+.unordered-list {
+	align-content: center;
+	margin: 30px auto;
+	width: 800px;
+}
+
+.center{
+	align-content:center;
+	margin: 50px 50px;
+}
+#About{
+	margin: 20px;
+}
+
+#References{
+	 margin:20px;
+}
+
+#Awards{
+	margin: 20px;
+}
+
+#Discography{
+	margin: 20px;
+}
+
+#Career{
+	margin: 20px;
+}
+
+#Earlylife{
+	margin: 20px;
+}

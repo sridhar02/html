@@ -1,0 +1,58 @@
+html{
+
+ background-color:lightblue;
+ display: flex;
+ margin: 10px 100px 10px 300px;
+ font-family: 'Source Sans Pro', sans-serif;
+
+
+}
+ 
+#main-form{
+	background: white;
+	padding-left:10px;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	margin: 10px;
+}
+.future{
+	display: flex;		
+} 
+
+.like {
+	display: flex;
+	justify-content: center;
+}
+
+.styled {
+    border: 0;
+    border-radius: 4px;
+    background-color: rgb(255, 0, 0);
+
+    padding: 10px 20px;
+
+    font-size: 1rem;
+    text-align: center;
+    text-align: center;
+    color: #fff;
+}
+
+.styled:hover {
+    background-color: rgb(100, 0, 0);
+}
+
+.styled:active {	
+    background-color: rgb(170, 0, 0);
+}
+
+p,
+label {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input {
+    margin: .4rem;
+}
+
+
