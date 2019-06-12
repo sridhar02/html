@@ -1,32 +1,196 @@
 html{
 
  background-color:lightblue;
- display: flex;
- margin: 10px 100px 10px 300px;
  font-family: 'Source Sans Pro', sans-serif;
+ font-family: 'Ubuntu', sans-serif;
+}
 
+.survey{
+	display: flex;
+	justify-content: center;
+}
+
+body{
+	background: lightblue;
+	margin: 20px 10px 20px 10px;
+	padding: 20px;
 
 }
- 
-#main-form{
+.main-form{
 	background: white;
-	padding-left:10px;
+	margin-left: 100px;
+	margin-right: 100px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	/*padding-left:10px;
 	padding-top: 20px;
 	padding-right: 20px;
 	padding-bottom: 20px;
 	margin: 10px;
-
+*/
 }
-.future{
+
+
+.main-statement{
+	display: flex;
+	justify-content: center;
+	margin: 10px;
+} 
+
+.name{
+	display: flex;
+	align-items: center;
+	margin-bottom: 5px;	
+}
+
+.name > div{
+	flex: 1;
+}
+
+.name-align{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.name-align span {
+	padding-right: 20px;
+}
+
+.email{
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+}
+.email > div{
+	flex:1;
+}
+.email-align{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.email-align span {
+	padding-right: 20px;
+}
+.age {
+	display:flex;
+	align-items: center;
+	margin-bottom: 10px;	
+}
+.age > div{
+	flex:1;
+}
+
+.age-align{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.age-align span{
+	padding-right: 20px;
+}
+
+.describes{
 	display: flex;
 
-} 
+}
+
+.describes > div{
+	flex:1;
+
+}
+
+.best-describes{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.best-describes span{
+	padding-right: 20px;
+}
+
+label {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:  1rem ;
+}
+
+
+.freecodecamp{
+	display: flex;
+	margin-top:10px;
+	/*flex:1;*/
+
+}
+
+.freecodecamp > div{
+	flex:1;
+}
+
+.fcc{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.fcc span{
+	padding-right: 20px;	
+}
 
 .like {
 	display: flex;
-	justify-content: space-between;
-
 }
+
+.like  div{
+	flex:1;
+}
+
+.tutorials{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.tutorials span{
+	padding-right: 20px;
+}
+.future{
+	margin: 20px;
+	display: flex;
+}
+
+.future >div{
+	flex: 1;	
+}
+
+.improved{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.improved span{
+	padding-right: 20px;
+}
+.suggestions{
+	display: flex;
+	margin: 10px;
+}
+.suggestions > div{
+	flex: 1;
+}
+.suggest{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.suggest span{
+	padding-right: 20px;
+}
+.submit{
+	display: flex;
+	justify-content: center;
+}
+
+
 
 .styled {
     border: 0;
@@ -47,28 +211,4 @@ html{
 
 .styled:active {	
     background-color: rgb(170, 0, 0);
-}
-
-p,
-label {
-    font: 1rem 'Fira Sans', sans-serif;
-}
-
-input {
-    margin: .4rem;
-}
-.freecodecamp{
-	display: flex;
-	justify-content: space-between;
-}
-.describes{
-	display: flex;
-	justify-content: space-between;
-
-}
-
-.improve{
-	display: flex;
-	/*justify-content: center;*/
-
 }
