@@ -12,24 +12,20 @@ html{
 
 body{
 	background: lightblue;
-	margin: 20px 10px 20px 10px;
 	padding: 20px;
 
 }
 .main-form{
 	background: white;
-	margin-left: 100px;
-	margin-right: 100px;
-	padding-left: 50px;
-	padding-right: 50px;
+	width: 75%;
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 10px;
 	padding-top: 20px;
-	padding-bottom: 20px;
-	/*padding-left:10px;
-	padding-top: 20px;
-	padding-right: 20px;
-	padding-bottom: 20px;
-	margin: 10px;
-*/
+	
+}
+.main-form input{
+	font-size: 13.333px;
 }
 
 
@@ -41,8 +37,8 @@ body{
 
 .name{
 	display: flex;
-	align-items: center;
-	margin-bottom: 5px;	
+	/*align-items: center;*/
+	margin-bottom: 10px;	
 }
 
 .name > div{
@@ -61,7 +57,7 @@ body{
 .email{
 	display: flex;
 	align-items: center;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 }
 .email > div{
 	flex:1;
@@ -77,7 +73,7 @@ body{
 .age {
 	display:flex;
 	align-items: center;
-	margin-bottom: 10px;	
+	margin-bottom: 20px;	
 }
 .age > div{
 	flex:1;
@@ -91,9 +87,13 @@ body{
 .age-align span{
 	padding-right: 20px;
 }
+.age-align input{
+	width: 280px;
+}
 
 .describes{
 	display: flex;
+	margin-bottom:20px;
 
 }
 
@@ -111,21 +111,27 @@ body{
 	padding-right: 20px;
 }
 
-label {
+/*label {
     font-family: 'Source Sans Pro', sans-serif;
     font-size:  1rem ;
-}
+}*/
 
 
 .freecodecamp{
 	display: flex;
-	margin-top:10px;
+	margin-top:20px;
+	margin-bottom: 20px;
 	/*flex:1;*/
 
 }
 
 .freecodecamp > div{
 	flex:1;
+}
+
+.freecodecamp label{
+	font-size: 1rem;
+	margin-bottom: 0px;
 }
 
 .fcc{
@@ -137,8 +143,13 @@ label {
 	padding-right: 20px;	
 }
 
+.fcc1{
+	display: flex;
+	justify-content:flex-end; 
+}
 .like {
 	display: flex;
+	margin-top: 30px;
 }
 
 .like  div{
@@ -155,11 +166,19 @@ label {
 }
 .future{
 	margin: 20px;
+	margin-bottom: 30px;
 	display: flex;
 }
 
 .future >div{
 	flex: 1;	
+}
+.future label{
+	margin-bottom:0;
+}
+.future1{
+	display: flex;
+	justify-content: flex-end;
 }
 
 .improved{
@@ -173,6 +192,7 @@ label {
 .suggestions{
 	display: flex;
 	margin: 10px;
+	margin-bottom: 30px;
 }
 .suggestions > div{
 	flex: 1;
@@ -189,13 +209,14 @@ label {
 	display: flex;
 	justify-content: center;
 }
-
-
+.last-section textarea{
+	font-size: 13.3333px;
+}
 
 .styled {
     border: 0;
     border-radius: 4px;
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(89, 172, 224);
 
     padding: 10px 20px;
 
@@ -206,9 +227,9 @@ label {
 }
 
 .styled:hover {
-    background-color: rgb(100, 0, 0);
+    background-color: rgb(89, 172, 224);
 }
 
 .styled:active {	
-    background-color: rgb(170, 0, 0);
+    background-color: rgb(89, 172, 224);
 }
