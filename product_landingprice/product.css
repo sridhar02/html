@@ -1,39 +1,79 @@
-html{
-background-color: #eee/*rgb(162,166,166)*/;
-}
+
 body{
-	margin-left:150px;
-	margin-right:150px;
-	margin-top: 50px;
+	background-color: #eee/*rgb(162,166,166)*/;
+	/*margin-top: 10px;*/
 	margin-bottom: 10px;
+	font-family: 'Lato', sans-serif;
+
 }
+
+.div2 {
+	max-width: 1000px;
+	width:100%;
+	margin: 0 auto;
+
+	
+}
+
 .header{
+	position: sticky;
+	top: 0px;
 	/*width: 100%;
     height: 100%;
     max-width: 300px;*/
-    display: flex;
-    justify-content: center;
+    /*display: flex;*/
+    /*justify-content: center;*/
     align-items: center;
     text-align: center;
-    margin-left: 20px;
+	background-color: #eee;
 }
 .head{
 	display: flex;
+	/*justify-content: space-between;*/
 }
 
-.nav{
+.logo img{
+	width: 100%;
+    height: 100%;
+    max-width: 300px;
 	display: flex;
+	justify-content: flex-start;
+}
+.features{
+	padding-right: 20px;
+	padding-left: 490px;
+}
+.how{
+	padding-right: 30px;
+	padding-left: 50px;
+}
+.prices{
+	padding-left: 40px;
+}
+.nav {
+	list-style: none;
+	display: flex;
+	font-weight: 400;
 }
 .nav div{
 	margin-right: 20px;
 }
-
+.nav a{
+	color: #000;
+	text-decoration: none;
+}
+.hand{
+	height: 200px;
+	margin-top: 50px;
+}
 .handcrafted {
 	display: flex;
 	justify-content: center;
-	font-size: 
-	margin-bottom:20px;
 	word-wrap: break-word;
+}
+.price{
+	display: flex;
+	justify-content: flex-end;
 }
 .email{
 	display: flex;
@@ -43,17 +83,26 @@ body{
 	padding: 5px;
 	margin-bottom: 10px;
 }
+.email input{ 
+	width: 26%;
+	height: 30px;
+}
 
 .button{
 	display: flex;
 	justify-content: center;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	color: black;
 }
+.auto{
+	}
 .premium{
 	display: flex;
 	justify-content: center;
 	/*padding: 10px;*/
 	margin:20px;
-	padding-right: 100px;
+	padding-right: 150px;
 	margin-left: 0px;	 	
 }
 
@@ -82,7 +131,6 @@ body{
 	display: flex;
 	justify-content: center;
 	padding: 10px;
-	margin:20px;	 
 }
 .quality img{
 	padding-right: 20px;
@@ -90,12 +138,14 @@ body{
 .quality h2,p{
 	margin: 0;
 }
+.assurance{
+	margin-top: 20px;
+}
 
 .video{
 	margin-top: 50px;
 	display: flex;
 	justify-content: center;
-	padding-right: 250px;
 }
 
 #pricing{
@@ -115,9 +165,13 @@ body{
     border: 1px solid #000;
     border-radius: 3px;
 }
+.product ol{
+	margin: 15px 0;
+	padding: 0;
+}
 .product li{
 	list-style: none;
-	padding: 10px;	
+	padding: 5px;	
 }
 .tenor{
 	padding: 15px;
@@ -142,29 +196,41 @@ body{
 .product button{
 	margin: 15px 0px;
 	font-weight: 400;
+	background-color: #f1c40f;
+	color: black;
+}
+.product h2{
+	margin: 0;
+	margin-top: 15px;
 }
 
 footer{
-	margin-top: 50px;
+	margin-top: 30px;
 	background-color: #dddd;
 	padding: 20px; 
 }
 
-footer ul{
+footer > div{
 	display: flex;
 	justify-content: flex-end;
 }
 footer li{
+	color:black;
 	padding: 0px 10px;
-	list-style: none;	
+	list-style: none;
+	text-decoration: none;	
 }
 
 footer span{
-	margin-top: 10px;
+	margin-top: 5px;
 	display: flex;
 	justify-content: flex-end;
 	font-size: 0.9em;
 	color: #444;
+}
+footer a{
+	color: #000;
+	text-decoration: none;
 }
 
 .get-started{
@@ -174,10 +240,11 @@ footer span{
 
     padding: 10px 20px;
 
-    font-size: 1rem;
     text-align: center;
     text-align: center;
-    color: #fff;
+    color:black;
+    font-weight: 900;
+    width: 15%;
 }
 
 .get-started:hover {
