@@ -1,29 +1,56 @@
 <!DOCTYPE html>
 <html>
+	<link href="fontawesome/css/all.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&amp;display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:700&amp;display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="main.css">
 	<title>Personal Portfolio Webpage</title>
 <body>
 	<nav class="nav">
-		<ul>
+		<ul class="ul">
 			<li><a href="#about">About</a></li>
 			<li><a href="#work">work</a></li>
-			<li><a href="#contact">Contact</a></li>
+			<li><a href="#section-2">Contact</a></li>
 		</ul>
 	</nav>
-	<div id="about" class="div1">
-		<h1>Hey i'am Mimic.</h1>
+	<section id="about" class="section-1">
+		<h1>Hey I am Mimic.</h1>
 		<p>a web developer</p>
-	</div>
-	<div id="work" class="work">
-		<h2>These are some of my projects..</h2>
-		<a href="file:///home/sridhar/Documents/HTML/miimic/main.html" class="a"><img src="1.png"></a>
-		<a href="" class="a"><img src="2.png"></a>
-		<a href="" class="a"><img src="3.png"></a>	
-		<a href="" class="a"><img src="4.png"></a>	
-		<a href="" class="a"><img src="5.png"></a>
-		<a href="" class="a"><img src="6.png"></a>
-		<a href="" class="show-all">show all</a>	
-	</div>
+	</section>
+	<section     class="section-2">
+		<h2><span>These are some of my projects</span></h2>
+		<div id="work" class="work">
+		<a href="" ><img class="project" src="1.png"></a>
+		<a href="" ><img src="2.png" class="project "></a>
+		<a href="" ><img src="3.png" class="project "></a>	
+		<a href="" ><img src="4.png" class="project"></a>	
+		<a href="" ><img src="5.png" class="project "></a>
+		<a href="" ><img src="6.png" class="project "></a>
+		</div>
+		<a href="" class="btn-show"><span>show all <i class="fas fa-chevron-right"></i></span></a>	
+	</section>
+	<section class="section-3">
+		<div class="section-3-header">
+			<h2>Let's work together . . .</h2>
+			<p>How do you take your coffee?</p>
+		</div>
+		<div  id="section-2" class="sub-section3">
+			<a href="https://www.facebook.com/freecodecamp/" class="btn-contact-details"><i class="fab fa-facebook-square"></i>Facebook</a>
+			<a href="https://github.com/FreeCodeCampChina/freecodecamp.cn" class="btn-contact-details"><i class="fab fa-github"></i>Github</a>
+			<a href="https://twitter.com/freeCodeCamp" class="btn-contact-details"><i class="fab fa-twitter"></i>Twitter</a>
+			<a href="freeCodeCamp@gmil.com" class="btn-contact-details"><i class="fas fa-at"></i>send a mail</a>
+			<a href="" class="btn-contact-details"><i class="fas fa-phone-square-alt"></i>call me</a>
+		</div>
+	</section>
+	<footer class="footer">
+		<p>	
+			**This is just a fake portfolio. All the projects and contact details given
+			are not real.
+		</p>
+		<p>
+			© created for <a href="">freeCodeCamp</a>
+		</p>
+	</footer>	
 
 
 
